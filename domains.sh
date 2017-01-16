@@ -1,5 +1,5 @@
 ## Automatically create custom domains (NOTE: Separated by a space and NOT a comma)
-DOMAINS=("local.myorder.ndtec.co.za")
+DOMAINS=("your-dev-domain.dev")
 
 ## Loop through all sites
 for ((i=0; i < ${#DOMAINS[@]}; i++)); do
